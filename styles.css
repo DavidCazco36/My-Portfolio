@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: #1c1a19;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3c3a39;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 24px;
+  color: white;
+  margin: 35px;
+  text-decoration: none;
+}
+
+.menu-icon {
+  margin: 20px;
+}
+
+.menu-line {
+  background-color: white;
+  width: 40px;
+  height: 5px;
+  margin: 6px;
+  border-radius: 3px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  top: 80px;
+  background: #1c1a19;
+}
+
+.primary-text {
+  width: 327px;
+  height: 124px;
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.supporting-text {
+  width: 327px;
+  height: 27px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  color: #fff5e1;
+}
+
+.description {
+  width: 327px;
+  height: 123px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.social-media-icons {
+  padding: 10px;
+}
+
+.social-media-icons li {
+  display: inline;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 12px;
+}
+
+.social-media-icons img {
+  width: 30px;
+}
+
+.background-img {
+  background-image: url('media/illustration-heading.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 430.89px;
+  height: 365.03px;
+  left: 200.1px;
+  top: 250px;
+  transform: scale(0.85);
+}
