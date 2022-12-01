@@ -148,6 +148,49 @@ body {
   justify-content: center;
   color: #1C1A19;
   flex: none;
-  order: 0;
+
+  width: 327px;
+  height: 100px;
+  border-bottom: 1px solid #212121;
   flex-grow: 0;
+}
+
+.work1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 0.7fr 1.7fr 0.6fr 0.6fr;
+  width:330px;
+  height:500px;
+  border:2px solid red;
+
+  justify-items: start;
+  align-items:center;
+}
+
+.work1 img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height:100%;
+  width:100%;
+}
+
+.work1 h3 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.work1 p {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.work1 div {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+.work1 button {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  width:100px;
 }
