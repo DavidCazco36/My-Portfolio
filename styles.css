@@ -10,6 +10,7 @@ body {
   background: #1c1a19;
 }
 
+/* Toolbar */
 .header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +44,7 @@ body {
   border-radius: 3px;
 }
 
+/* Headline */
 .headline {
   display: flex;
   flex-direction: column;
@@ -117,4 +119,35 @@ body {
   left: 200.1px;
   top: 250px;
   transform: scale(0.85);
+}
+
+/* Middle Section */
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0px;
+  gap: 80px;
+  background: #E5E5E5;
+  position: absolute;
+  width: 375px;
+  height: 3455px;
+  left: 0px;
+  top: 682px;
+}
+
+.works h2 {
+  width: 327px;
+  height: 83px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  justify-content: center;
+  color: #1C1A19;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
