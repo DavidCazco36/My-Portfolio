@@ -111,7 +111,6 @@ body {
 .background-img {
   background-image: url('media/illustration-heading.png');
   background-repeat: no-repeat;
-  border: 1px solid red;
   position: absolute;
   width: 430.89px;
   height: 365.03px;
