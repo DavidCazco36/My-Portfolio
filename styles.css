@@ -257,17 +257,15 @@ button:active {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6,1fr);
   width: 330px;
-  height: 2000px;
   justify-items: start;
   align-items: center;
-  gap:17px;
-  border: 1px solid red;
+  gap:25px;
 }
 
-.work2 {
+.work-collection {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 3fr 2fr 0.8fr 0.8fr;
+  grid-template-rows: 3fr 2fr 0.8fr 0.9fr;
   align-items: center;
   background-image: url('media/work2_image.png');
   background-repeat: no-repeat;
