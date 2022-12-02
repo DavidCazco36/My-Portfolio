@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
 
 * {
   box-sizing: border-box;
@@ -160,11 +161,10 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 3fr 0.7fr 1.7fr 0.6fr 0.6fr;
   width:330px;
-  height:500px;
-  border:2px solid red;
-
+  height:600px;
   justify-items: start;
   align-items:center;
+  border:1px solid red;
 }
 
 .work1 img {
@@ -177,20 +177,76 @@ body {
 .work1 h3 {
   grid-column: 1/2;
   grid-row: 2/3;
+  width: 327px;
+  height: 36px;
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091E42;
 }
 
 .work1 p {
   grid-column: 1/2;
   grid-row: 3/4;
+  width: 327px;
+  height: 147px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091E42;
 }
 
-.work1 div {
+.categories {
   grid-column: 1/2;
   grid-row: 4/5;
+}
+
+.categories ul {
+  display:flex;
+  flex-direction:row;
+  list-style-type: none;
+  padding:0;
+}
+.categories li {
+  border: 1px solid rgb(171, 171, 171);
+  border-radius:1px;
+  padding:8px;
+  margin: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091E42;
 }
 
 .work1 button {
   grid-column: 1/2;
   grid-row: 5/6;
-  width:100px;
+  background: #FF6B00;
+  color:white;
+  border:none;
+  border-radius: 2px;
+  width:130px;
+  height:45px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+button:hover {
+  background: #FFF5E1;
+  border: 1px solid #F55800;  
+  color:#F55800;
+}
+button:active {
+  background: #E05304;
+  color: #F4F1F0;
 }
