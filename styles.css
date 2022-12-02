@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 * {
   box-sizing: border-box;
@@ -111,7 +112,7 @@ body {
   width: 30px;
 }
 
-.background-img {
+.background-img1 {
   background-image: url('media/illustration-heading.png');
   background-repeat: no-repeat;
   position: absolute;
@@ -149,8 +150,6 @@ body {
   justify-content: center;
   color: #1c1a19;
   flex: none;
-  width: 327px;
-  height: 100px;
   border-bottom: 1px solid #212121;
   flex-grow: 0;
 }
@@ -177,7 +176,7 @@ body {
   grid-row: 2/3;
   width: 327px;
   height: 36px;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -190,7 +189,7 @@ body {
   grid-row: 3/4;
   width: 327px;
   height: 147px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -214,8 +213,8 @@ body {
   border: 1px solid rgb(171, 171, 171);
   border-radius: 1px;
   padding: 8px;
-  margin: 5px 10px 5px 0px;
-  font-family: 'Inter';
+  margin: 5px 10px 5px 0;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -232,7 +231,7 @@ body {
   border-radius: 2px;
   width: 130px;
   height: 45px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -251,15 +250,15 @@ button:active {
   color: #f4f1f0;
 }
 
-/*Grid Container*/
+/* Grid Container */
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(6,1fr);
+  grid-template-rows: repeat(6, 1fr);
   width: 330px;
   justify-items: start;
   align-items: center;
-  gap:25px;
+  gap: 25px;
 }
 
 .work-collection {
@@ -273,52 +272,52 @@ button:active {
 }
 
 .project-info {
-  margin:0px 13px  13px ;
+  margin: 0 13px  13px;
 }
 
 .project-title {
   grid-column: 1/2;
   grid-row: 1/2;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   align-self: end;
-  margin:0px 13px;
+  margin: 0 13px;
 }
 
 .project-description {
   grid-column: 1/2;
   grid-row: 2/3;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: white;
-  margin:  7px 13px
+  margin: 7px 13px;
 }
 
 .project-tag {
   grid-column: 1/2;
   grid-row: 3/4;
-  
 }
+
 .project-tag ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
   padding: 0;
-  margin:0px 0px 8px 0px;
+  margin: 0 0 8px 0;
 }
 
 .project-tag li {
   border-radius: 1px;
   padding: 8px;
-  margin: 0px 10px 0px 0px;
-  font-family: 'Inter';
+  margin: 0 10px 0 0;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -334,12 +333,142 @@ button:active {
   color: white;
   border: none;
   border-radius: 2px;
-  width: 100%;
+  width: 99.5%;
   height: 100%;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
+}
+
+/* About Me Section */
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 2100px;
+  left: 0;
+  top: 4170px;
+  background: #1c1a19;
+}
+
+.about-me-title {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+.about-me-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.button2 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+  background: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: 180px;
+  height: 60px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin: 15px 0;
+}
+
+.background-img2 {
+  background-image: url('media/ilustration-about-me.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 430.89px;
+  height: 365.03px;
+  left: 170.1px;
+  top: 330px;
+  transform: scale(0.85);
+}
+
+.vector-line {
+  width: 85%;
+  margin: 200px;
+  position: absolute;
+  align-self: center;
+  border-bottom: 1px solid white;
+  top: 470px;
+}
+
+.knowledge {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 44px;
+  position: absolute;
+  top: 750px;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+  margin: 40px;
+  margin-left: 25px;
+}
+
+.about-me-title2 {
+  display: inline-block;
+}
+
+.knowledge li {
+  justify-content: center;
+  color: #fff;
+  margin: 20px;
+  list-style: none;
+}
+
+.bullet1 {
+  background: url(media/bullet-diamond.png) no-repeat;
+  background-position: 0 5px;
+  line-height: 1.5625;
+  padding: 0 0 0 45px;
+  margin-left: 1em;
+}
+
+.bullet2 {
+  background: url(media/bullet-square.png) no-repeat;
+  background-position: 0 5px;
+  line-height: 1.5625;
+  padding: 0 0 0 45px;
+  margin-left: 1em;
+}
+
+.bullet3 {
+  background: url(media/bullet-circle.png) no-repeat;
+  background-position: 0 5px;
+  line-height: 1.5625;
+  padding: 0 0 0 45px;
+  margin-left: 1em;
+}
+
+.sublist {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
 }
