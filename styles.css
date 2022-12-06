@@ -352,7 +352,7 @@ button:active {
   gap: 12px;
   position: absolute;
   width: 375px;
-  height: 2100px;
+  
   left: 0;
   top: 4170px;
   background: #1c1a19;
@@ -472,3 +472,18 @@ button:active {
   font-size: 22px;
   line-height: 43px;
 }
+
+/* Contact Me Form */
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 30px;
+  position: absolute;
+  width: 375px;
+  left: 0;
+  top: 6200px;
+  background: white;
+}
+
