@@ -341,7 +341,6 @@ body {
   gap: 12px;
   position: absolute;
   width: 375px;
-  
   left: 0;
   top: 4170px;
   background: #1c1a19;
@@ -480,8 +479,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items:center;
-  margin: 20px 0px;
+  justify-items: center;
+  margin: 20px 0;
 }
 
 .contact-me h2 {
@@ -491,7 +490,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .user-info {
@@ -499,15 +498,13 @@ body {
   padding: 20px 15px;
   width: 300px;
   height: 2em;
-  border: 0px ;
-  border-bottom: 1px solid #DBD8D7;
+  border: 0;
+  border-bottom: 1px solid #dbd8d7;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  
-
 }
 
 .contact-form textarea {
@@ -515,14 +512,14 @@ body {
   padding: 15px 20px;
   width: 300px;
   height: 10em;
-  border: 0px;
-  background: #FBF8F7;
+  border: 0;
+  background: #fbf8f7;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .contact-form button {
@@ -540,7 +537,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Universal styles*/
+/* Universal styles */
 button:hover {
   background: #fff5e1;
   border: 1px solid #f55800;
@@ -555,4 +552,3 @@ button:active {
 ::placeholder {
   color: #979493;
 }
-
