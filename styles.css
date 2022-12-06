@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap');
 
 * {
@@ -239,17 +239,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-button:hover {
-  background: #fff5e1;
-  border: 1px solid #f55800;
-  color: #f55800;
-}
-
-button:active {
-  background: #e05304;
-  color: #f4f1f0;
-}
-
 /* Grid Container */
 .wrapper {
   display: grid;
@@ -352,7 +341,6 @@ button:active {
   gap: 12px;
   position: absolute;
   width: 375px;
-  height: 2100px;
   left: 0;
   top: 4170px;
   background: #1c1a19;
@@ -471,4 +459,96 @@ button:active {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
+}
+
+/* Contact Me Form */
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 30px;
+  position: absolute;
+  width: 375px;
+  left: 0;
+  top: 6200px;
+  background: white;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 20px 0;
+}
+
+.contact-me h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.user-info {
+  margin-bottom: 40px;
+  padding: 20px 15px;
+  width: 300px;
+  height: 2em;
+  border: 0;
+  border-bottom: 1px solid #dbd8d7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.contact-form textarea {
+  margin-bottom: 20px;
+  padding: 15px 20px;
+  width: 300px;
+  height: 10em;
+  border: 0;
+  background: #fbf8f7;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.contact-form button {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: 140px;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+/* Universal styles */
+button:hover {
+  background: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background: #e05304;
+  color: #f4f1f0;
+}
+
+::placeholder {
+  color: #979493;
 }
