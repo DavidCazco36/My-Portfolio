@@ -9,7 +9,9 @@
 }
 
 body {
-  background: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  background: #de9977;
 }
 
 /* Toolbar */
@@ -50,15 +52,12 @@ body {
 .headline {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   padding: 120px 24px;
-  gap: 12px;
-  position: absolute;
-  width: 375px;
-  height: 590px;
-  left: 0;
-  top: 80px;
-  background: #1c1a19;
+  gap: 25px;
+  background-color: #1c1a19;
+
+  position: relative;
 }
 
 .primary-text {
@@ -99,12 +98,13 @@ body {
 
 .social-media-icons {
   padding: 10px;
+  margin-right: 110px;
+  
 }
 
 .social-media-icons li {
   display: inline;
   justify-content: space-between;
-  flex-direction: row;
   margin: 12px;
 }
 
@@ -118,8 +118,8 @@ body {
   position: absolute;
   width: 430.89px;
   height: 365.03px;
-  left: 200.1px;
-  top: 250px;
+  left: 50%;
+  top: 290px;
   transform: scale(0.85);
 }
 
@@ -341,7 +341,6 @@ body {
   gap: 12px;
   position: absolute;
   width: 375px;
-  left: 0;
   top: 4170px;
   background: #1c1a19;
 }
@@ -552,3 +551,4 @@ button:active {
 ::placeholder {
   color: #979493;
 }
+
