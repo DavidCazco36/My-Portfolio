@@ -254,23 +254,46 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
   width: 330px;
-  justify-items: start;
-  align-items: center;
-  gap: 25px;
+  gap: 30px;
+  border: 1px solid red;
 }
 
 .work-collection {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3fr 2fr 0.8fr 0.9fr;
-  align-items: center;
   background-image: url('media/work2_image.png');
   background-repeat: no-repeat;
-  background-attachment: cover;
+  background-attachment:cover;
+  width: 330px;
+}
+.project1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.project2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.project3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.project4 {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.project5 {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+.project6 {
+  grid-column: 1/2;
+  grid-row: 6/7;
 }
 
 .project-info {
-  margin: 0 13px  13px;
+  margin: 0 26px 13px;
 }
 
 .project-title {
@@ -289,6 +312,7 @@ body {
 .project-description {
   grid-column: 1/2;
   grid-row: 2/3;
+  width:315;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -305,7 +329,6 @@ body {
 
 .project-tag ul {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
   padding: 0;
   margin: 0 0 8px 0;
@@ -331,7 +354,7 @@ body {
   color: white;
   border: none;
   border-radius: 2px;
-  width: 99.5%;
+  width: 330px;
   height: 100%;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -605,6 +628,41 @@ button:active {
   .work1 p {
     width:auto;
     height: auto;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: auto;
+    height: auto;
+    gap: 30px;
+    border: 1px solid red;
+    justify-content: center;
+    transform: scale(auto);
+  }
+  .project1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .project2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .project3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .project4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .project5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .project6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
   }
 }
 
