@@ -450,7 +450,6 @@ body {
 }
 
 .knowledge li {
-  justify-content: center;
   color: #fff;
   margin: 20px;
   list-style: none;
@@ -507,6 +506,7 @@ body {
   align-items: center;
   justify-items: center;
   margin: 20px 0;
+  width: 80%;
 }
 
 .contact-me h2 {
@@ -522,8 +522,8 @@ body {
 .user-info {
   margin-bottom: 40px;
   padding: 20px 15px;
-  width: 300px;
   height: 2em;
+  width:100%;
   border: 0;
   border-bottom: 1px solid #dbd8d7;
   font-family: 'Inter', sans-serif;
@@ -536,8 +536,8 @@ body {
 .contact-form textarea {
   margin-bottom: 20px;
   padding: 15px 20px;
-  width: 300px;
   height: 10em;
+  width:100%;
   border: 0;
   background: #fbf8f7;
   font-family: 'Inter', sans-serif;
@@ -683,6 +683,24 @@ button:active {
   .knowledge {
     display: flex;
     justify-content: space-evenly;
+    text-align: left;
+  }
+  .contact-me {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 120px 48px;
+  }
+  .contact-me h2 {
+    padding-top: 20px;
+    text-align: left;
+    max-width: 350px;
+  }
+  .contact-form {
+    max-width: 700px;
+  }
+  .contact-form button {
+    align-self: flex-start;
   }
 }
 
