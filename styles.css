@@ -118,7 +118,7 @@ body {
   position: absolute;
   width: 430.89px;
   height: 365.03px;
-  left: 50%;
+  left: 55%;
   top: 290px;
   transform: scale(0.85);
 }
@@ -131,10 +131,7 @@ body {
   padding: 120px 0;
   gap: 20px;
   background: white;
-  position: absolute;
-  width: 375px;
-  height: 3455px;
-  left: 0;
+  width: 100%;
   top: 682px;
 }
 
@@ -336,11 +333,11 @@ body {
 .about-me {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-items: center;
   padding: 120px 24px;
   gap: 12px;
-  position: absolute;
-  width: 375px;
+  width: 100%;
   top: 4170px;
   background: #1c1a19;
 }
@@ -361,12 +358,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  width: 327px;
   color: #f4f5f7;
 }
 
 .button2 {
-  grid-column: 1/2;
-  grid-row: 5/6;
   background: #ff6b00;
   color: white;
   border: none;
@@ -379,24 +375,23 @@ body {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  margin: 15px 0;
+  margin: 20px 140px 0 0;
 }
 
 .background-img2 {
   background-image: url('media/ilustration-about-me.png');
   background-repeat: no-repeat;
+  width: 100%;
   position: absolute;
-  width: 430.89px;
-  height: 365.03px;
-  left: 170.1px;
-  top: 330px;
+  height: 360px;
+  left: 50%;
+  top:4380px;
   transform: scale(0.85);
 }
 
 .vector-line {
-  width: 85%;
-  margin: 200px;
-  position: absolute;
+  width: 95%;
+  margin-top: 150px;
   align-self: center;
   border-bottom: 1px solid white;
   top: 470px;
@@ -408,13 +403,13 @@ body {
   font-weight: 700;
   font-size: 29px;
   line-height: 44px;
-  position: absolute;
   top: 750px;
   color: #fff;
   padding: 0;
   text-align: center;
-  margin: 40px;
-  margin-left: 25px;
+  width: 100%;
+  background-color: #1c1a19;
+  margin-top: 70px;
 }
 
 .about-me-title2 {
@@ -467,8 +462,7 @@ body {
   align-items: center;
   padding: 120px 24px;
   gap: 30px;
-  position: absolute;
-  width: 375px;
+  width: 100%;
   left: 0;
   top: 6200px;
   background: white;
