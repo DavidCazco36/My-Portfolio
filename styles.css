@@ -17,7 +17,7 @@ body {
 /* Toolbar */
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background: #3c3a39;
   height: 80px;
@@ -37,6 +37,30 @@ body {
   text-decoration: none;
 }
 
+.nav-bar {
+  display:flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+  padding-right: 20px;
+
+}
+
+.nav-bar-pages {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  color: #FFFFFF;
+  text-decoration: none;
+  justify-self: right;
+  margin:15px;
+  display: none;
+}
+
 .menu-icon {
   margin: 20px;
 }
@@ -44,8 +68,8 @@ body {
 .menu-line {
   background-color: white;
   width: 40px;
-  height: 5px;
-  margin: 6px;
+  height: 3px;
+  margin: 7px;
   border-radius: 3px;
 }
 
@@ -56,7 +80,8 @@ body {
   align-items: center;
   padding: 300px 10px 120px 10px;
   background-color: #1c1a19;
-  gap:25px
+  gap:25px;
+
 }
 
 .headline-info {
@@ -594,6 +619,24 @@ button:active {
 }
 
 @media only screen and (min-width: 768px) {
+
+  .menu-icon {
+    display:none;
+  }
+  .nav-bar-pages {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: none;
+    justify-self: right;
+    margin:15px;
+    display: visible;
+  }
+
   .headline {
     align-items: flex-start;
     padding: 300px 100px 130px 100px;
