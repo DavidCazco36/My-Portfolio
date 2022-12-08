@@ -298,7 +298,7 @@ body {
   grid-template-rows: 3fr 2fr 0.8fr 0.9fr;
   background-image: url('media/work2_image.png');
   background-repeat: no-repeat;
-  background-attachment: cover;
+  background-size: cover;
   width: 330px;
 }
 
