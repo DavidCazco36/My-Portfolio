@@ -83,7 +83,7 @@ body {
   gap: 25px;
   background-image: url(media/headline-mobile.png);
   background-repeat: no-repeat;
-  background-position: bottom right ;
+  background-position: bottom right;
 }
 
 .headline-info {
@@ -144,7 +144,7 @@ body {
   width: 25px;
 }
 
-/*.background-img1 {
+/* .background-img1 {
   background-image: url('media/illustration-heading.png');
   background-repeat: no-repeat;
   position: absolute;
@@ -153,7 +153,7 @@ body {
   left: 55%;
   top: 380px;
   transform: scale(0.85);
-}*/
+} */
 
 /* Middle Section */
 .works {
@@ -387,7 +387,7 @@ body {
   background-image: url('media/about-me-mobile.png');
   background-repeat: no-repeat;
   background-position: right;
-  background-position-y: 320px ;
+  background-position-y: 320px;
 }
 
 .about-me-title {
@@ -426,7 +426,7 @@ body {
   margin: 20px 140px 0 0;
 }
 
-/*.background-img2 {
+/* .background-img2 {
   background-image: url('media/ilustration-about-me.png');
   background-repeat: no-repeat;
   width: 100%;
@@ -435,7 +435,7 @@ body {
   left: 50%;
   top: 4550px;
   transform: scale(0.85);
-}*/
+} */
 
 .vector-line2 {
   width: 95%;
@@ -634,7 +634,7 @@ button:active {
     height: 100vh;
     background-image: url(media/Illustration-header.png);
     background-repeat: no-repeat;
-    background-position: bottom right ;
+    background-position: bottom right;
   }
 
   .social-media-icons {
@@ -655,7 +655,7 @@ button:active {
     width: 45%;
   }
 
-  /*.background-img1 {
+  /* .background-img1 {
     background-image: url('media/illustration-heading.png');
     background-repeat: no-repeat;
     position: absolute;
@@ -664,7 +664,7 @@ button:active {
     left: 65%;
     top: 100px;
     transform: scale(1.8);
-  }*/
+  } */
 
   .work1 {
     display: grid;
@@ -720,7 +720,7 @@ button:active {
     justify-content: center;
     transform: scale(auto);
   }
-  
+
   .each-project-container:hover {
     background-image: url('media/project-hover-2.png');
     background-repeat: no-repeat;
@@ -740,7 +740,7 @@ button:active {
     display: none;
   }
 
-  /*.background-img2 {
+  /* .background-img2 {
     background-image: url('media/ilustration-about-me.png');
     background-repeat: no-repeat;
     width: 100%;
@@ -749,7 +749,7 @@ button:active {
     left: 70%;
     top: 2400px;
     transform: scale(1.2);
-  }*/
+  } */
 
   .about-me {
     align-items: flex-start;
