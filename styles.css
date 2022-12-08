@@ -661,6 +661,10 @@ button:active {
     flex-direction: row-reverse;
     align-items: center;
     padding: 200px 10px 130px 10px;
+    height: 100vh;
+    background-image: url(media/Illustration-header.png);
+    background-repeat: no-repeat;
+    background-position: bottom right ;
   }
 
   .social-media-icons {
