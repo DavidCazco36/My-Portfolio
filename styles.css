@@ -36,7 +36,19 @@ body {
   text-decoration: none;
   display: block;
   margin-left: 35px;
-  min-width: 180px;
+  min-width: 138px;
+  animation-duration: 1s;
+  animation-name: rotater;
+}
+
+@keyframes rotater {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .nav-bar {
