@@ -212,6 +212,7 @@ body {
   grid-row: 1/2;
   height: 100%;
   width: 100%;
+  transition: width 0.5s, height 0.5s;
 }
 
 .work1 h3 {
@@ -682,6 +683,11 @@ button:active {
     height: 100%;
     max-height: 600px;
     align-self: center;
+  }
+
+  .multi-post-image:hover {
+    width: 101%;
+    height: 101%;
   }
 
   .work1-info {
