@@ -58,6 +58,14 @@ This project was made with:
 
 - **[Mobile header or toolbar]**
 - **[Headline banner]**
+- **[Projects section]**
+- **[Contact form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://davidcazco36.github.io/My-Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
