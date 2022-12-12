@@ -38,16 +38,18 @@ body {
   margin-left: 35px;
   min-width: 138px;
   animation-duration: 1s;
-  animation-name: rotater;
+  animation-name: logoIn;
 }
 
-@keyframes rotater {
+@keyframes logoIn {
   from {
-    transform: rotate(0);
+    opacity: 0%;
+    margin: 0px 0px 0px 20px ;
   }
 
   to {
-    transform: rotate(360deg);
+    opacity: 100%;
+    margin: 0px 0px 0px 35px ;
   }
 }
 
