@@ -44,12 +44,12 @@ body {
 @keyframes logoIn {
   from {
     opacity: 0%;
-    margin: 0px 0px 0px 20px ;
+    margin: 0 0 0 20px;
   }
 
   to {
     opacity: 100%;
-    margin: 0px 0px 0px 35px ;
+    margin: 0 0 0 35px;
   }
 }
 
