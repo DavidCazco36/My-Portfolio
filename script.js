@@ -1,5 +1,6 @@
 let is_on = Boolean
 
+
 document.getElementsByClassName('menu-icon')[0].addEventListener('click', function () {
    
     if (is_on === true) {
@@ -18,8 +19,13 @@ document.getElementsByClassName('menu-icon')[0].addEventListener('click', functi
 })
 
 function close_button() {
-    console.log('test')
-    document.getElementsByClassName('nav-bar')[0].style.display = 'none'
-    document.getElementsByTagName('body')[0].style.overflow = 'scroll'
-    is_on = false
+    if (screen.width < 768) {
+            console.log('test')
+            document.getElementsByClassName('nav-bar')[0].style.display = 'none'
+            document.getElementsByTagName('body')[0].style.overflow = 'scroll'
+            is_on = false
+    }
 }
+      
+
+
