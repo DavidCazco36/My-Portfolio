@@ -20,9 +20,8 @@ document.getElementsByClassName('menu-icon')[0].addEventListener('click', functi
 
 function close_button() {
     if (screen.width < 768) {
-            console.log('test')
             document.getElementsByClassName('nav-bar')[0].style.display = 'none'
-            document.getElementsByTagName('body')[0].style.overflow = 'scroll'
+            document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
             is_on = false
     }
 }

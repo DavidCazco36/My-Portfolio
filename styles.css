@@ -63,10 +63,10 @@ body {
   width: 100%;
   max-width: 1200px;
   align-items: flex-start;
-  padding: 20px 30px 0 0;
+  padding: 20px 30px;
   background-color: #3C3A39;
   height: 100vh;
-  gap: 30px;
+  gap: 10px;
 
 }
 
@@ -74,17 +74,15 @@ body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 20px;
   color: #fff;
   text-decoration: none;
   justify-self: right;
   margin: 15px;
-  width: 100%;
-  border-bottom: solid;
-  border-width: 1px;
-  border-color: white;
-  height: 50px;
+  width: 95%;
+  border-bottom:1px solid white;
+  height: 40px;
 }
 
 #mail-nav-bar-pages {
@@ -638,7 +636,9 @@ button:active {
     width: 100%;
     padding-right: 30px;
     background: none;
-    top: 16px;
+    top: 0px;
+    height: auto;
+    
   }
 
   .nav-bar-pages {
@@ -653,6 +653,9 @@ button:active {
     justify-self: right;
     margin: 15px;
     width: auto;
+    width: auto;
+    border-bottom:0px solid white;
+    height: 20px;
   }
 
   .headline {
@@ -814,5 +817,6 @@ button:active {
 
   #mail-nav-bar-pages {
     display: flex;
+    align-self: center;
   }
 }
