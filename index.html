@@ -9,17 +9,17 @@
 </head>
 <body>
   <header class="header">
+    <div class="header-container">
     <a class="logo" href="index.html">David Cazco</a>
     <div class="nav-bar">
-      <a class="nav-bar-pages" tabindex="1" href="#works">Portfolio</a>
-      <a class="nav-bar-pages" tabindex="2" href="#about-me">About</a>
-      <a class="nav-bar-pages" tabindex="3" href="#contact-me">Contact</a>
-      <a class="nav-bar-pages" tabindex="4" href="#contact-me"><img src="media/mail-icon.png" alt="mail"></a>
-      <nav class="menu-icon">
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-        <div class="menu-line"></div>
-      </nav>
+      <a onclick="close_button()" class="nav-bar-pages" tabindex="1" href="#works">Portfolio</a>
+      <a onclick="close_button()" class="nav-bar-pages" tabindex="2" href="#about-me">About</a>
+      <a onclick="close_button()" class="nav-bar-pages" tabindex="3" href="#contact-me">Contact</a>
+      <a id="mail-nav-bar-pages" tabindex="4" href="#contact-me"><img src="media/mail-icon.png" alt="mail"></a>
+    </div>
+    <nav class="menu-icon">
+      <img class="burger-img" src="media/Icon - Menu.png">
+    </nav>
     </div>
   </header>
   <section class="headline">
@@ -216,5 +216,6 @@
       </li>
     </ul>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
