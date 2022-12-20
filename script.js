@@ -25,8 +25,8 @@ document.getElementsByClassName('menu-icon')[0].addEventListener('click', functi
 
 function close_button() {
     if (screen.width < 768) {
-            document.getElementsByClassName('nav-bar')[0].style.display = 'none'
-            document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
+            document.getElementsByClassName('nav-bar')[0].style.display = 'none';
+            document.getElementsByClassName('burger-img')[0].src = 'media/Icon - Menu.png';
             is_on = false
     }
 }
