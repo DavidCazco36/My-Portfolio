@@ -94,6 +94,7 @@ body {
 
 .menu-icon {
   position: relative;
+  display:block;
   right: 2.7%;
   margin: 13px;
   background: none;
@@ -101,9 +102,8 @@ body {
   justify-self: flex-end;
 }
 
-.menu-icon:focus {
-  background: none;
-  border: none;
+.burger-img {
+  width: 40px;
 }
 
 .menu-line {
