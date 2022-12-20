@@ -5,14 +5,16 @@ document.getElementsByClassName('menu-icon')[0].addEventListener('click', functi
    
     if (is_on === true) {
         document.getElementsByClassName('nav-bar')[0].style.display = 'none'
-        document.getElementsByTagName('body')[0].style.overflowY = 'scroll'
+        document.getElementsByClassName('logo')[0].style.display = 'flex'
+        document.getElementsByClassName('header-container')[0].style.justifyContent ='space-between'
         is_on = false
         console.log (is_on)
     }
 
     else {
     document.getElementsByClassName('nav-bar')[0].style.display = 'flex'
-    document.getElementsByTagName('body')[0].style.overflowY = 'hidden'
+    document.getElementsByClassName('logo')[0].style.display = 'none'
+    document.getElementsByClassName('header-container')[0].style.justifyContent ='flex-end'
     is_on = true
     console.log (is_on)
     }
