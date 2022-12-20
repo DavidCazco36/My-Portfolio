@@ -26,7 +26,9 @@ document.getElementsByClassName('menu-icon')[0].addEventListener('click', functi
 function close_button() {
     if (screen.width < 768) {
             document.getElementsByClassName('nav-bar')[0].style.display = 'none';
+            document.getElementsByClassName('logo')[0].style.display = 'block';
             document.getElementsByClassName('burger-img')[0].src = 'media/Icon - Menu.png';
+            document.getElementsByClassName('header-container')[0].style.justifyContent ='space-between';
             is_on = false
     }
 }
